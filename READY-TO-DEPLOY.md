@@ -28,6 +28,7 @@ Your Sai Manjari Embroidery website is now clean and ready for deployment to Ver
 - ✅ Build errors from missing dependencies
 - ✅ Cleaned up package.json
 - ✅ Simplified .env.local
+- ✅ Fixed vercel.json environment variable references
 
 ## 📊 Build Status
 
@@ -67,7 +68,7 @@ Guntur_Designs/
 
 ## 🚀 Deploy to Vercel Now!
 
-### Step 1: Initialize Git
+### Step 1: Initialize Git (if not done)
 ```bash
 git init
 git add .
@@ -85,9 +86,20 @@ git push -u origin main
 1. Go to https://vercel.com/new
 2. Sign in with GitHub
 3. Import your repository
-4. Click "Deploy"
+4. **Important**: Don't add any environment variables (none needed!)
+5. Click "Deploy"
 
 That's it! Your site will be live in 2-3 minutes! 🎉
+
+## ⚠️ Important Notes
+
+### No Environment Variables Needed!
+Your website is a static site with no backend, so you don't need to configure any environment variables in Vercel. Just deploy as-is!
+
+### If You See Environment Variable Errors:
+- Make sure you didn't add any environment variables in Vercel dashboard
+- The site works without any backend configuration
+- Just click "Deploy" without adding variables
 
 ## 🌐 Your Website Features
 
