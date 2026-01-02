@@ -38,7 +38,7 @@ npm start
 
 ## 🌐 Deployment
 
-See [deploy-to-vercel.md](./deploy-to-vercel.md) for detailed deployment instructions.
+See [deploy-to-vercel.md](https://saimanjariguntur.vercel.app/) for detailed deployment instructions.
 
 Quick deploy:
 ```bash
